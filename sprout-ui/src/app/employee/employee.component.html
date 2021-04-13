@@ -1,0 +1,49 @@
+<div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+
+<h2>Employees</h2>
+<ul class="employees">
+    <li *ngFor="let employee of employees"  (click)="selectEmployee(employee)">
+    <span class="badge">{{employee.name}}</span>
+  </li>
+</ul>
+<div class="employee-detail">
+    <div class="col-md-6">
+        <div *ngIf="currentEmployee">
+          <h4>Employee Details</h4>
+          <div>
+            <label><strong>Name:</strong></label> {{ currentEmployee.name }}
+          </div>
+          <div>
+            <label><strong>Birthdate:</strong></label> {{ currentEmployee.birthDate }}
+          </div>
+          <div>
+            <label><strong>TIN:</strong></label> {{ currentEmployee.tin }}
+          </div>
+          <div>
+            <label><strong>EmployeeType:</strong></label> {{ currentEmployee.employeeType }}
+          </div>
+          
+          <div *ngIf="currentEmployee.employeeType == 0">
+            Enter number of Day(s) Absent:
+            <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+                <input formControlName="days" type="number" >
+             </form>
+          </div>
+
+          <div *ngIf="currentEmployee.employeeType == 1">
+            Enter number of Day(s) Present:
+            <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+                <input formControlName="days" type="number" >
+             </form>
+          </div>
+
+          <div>
+            <label><strong>Salary:</strong></label> {{ salary }}
+          </div>
+
+          <a class="badge badge-warning" (click)="getSalary()">
+            Get Salary
+          </a>
+        </div>
+    </div>
+</div>
