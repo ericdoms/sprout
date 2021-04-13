@@ -2,14 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SproutSolution.Service.Interface
 {
     public interface IEmployeeService
     {
         void CreateEmployee(Employee employee);
-        decimal GetSalary(Employee employee);
-        IEnumerable<Employee> GetEmployees();
-        Employee GetEmployeeById(Guid employeeId);
+        Task<decimal> GetSalary(Employee employee);
+        Task<IEnumerable<Employee>> GetEmployees();
+        Task<Employee> GetEmployeeById(Guid employeeId);
     }
 }

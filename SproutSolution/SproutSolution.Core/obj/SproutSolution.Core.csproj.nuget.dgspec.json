@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {}
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
         "projectName": "SproutSolution.Core",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
+        "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",

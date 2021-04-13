@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NXk509VG3zdyHYWB+IIQn6xxm/XdyAVM/UQRpJIB0Wngmo9yZIjnvVP5pxKKKw/P3bXIvAqDtnd0jUay65kOkA==",
+  "dgSpecHash": "bJyTb5BK0eUT7Yrk5bJ382N/Mb0dfT/EhaAFAjwIYwP3YRWSi6UQuYr3BP0EJieMb4+gfAlP6PutaWS8IpAdfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
+  "projectFilePath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",

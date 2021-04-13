@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SproutSolution.Repository.Repository
 {
@@ -39,7 +40,7 @@ namespace SproutSolution.Repository.Repository
             _cache = new EmployeeDictionary();
         }
 
-        public IEnumerable<Employee> GetEmployees()
+        public async Task<IEnumerable<Employee>> GetEmployees()
         {
             if(_cache == null)
             {
@@ -48,7 +49,7 @@ namespace SproutSolution.Repository.Repository
             return _cache.Select(x => x.Value).ToList();
         }
 
-        public Employee GetEmployeeById(Guid id)
+        public async Task<Employee> GetEmployeeById(Guid id)
         {
             throw new NotImplementedException();
         }

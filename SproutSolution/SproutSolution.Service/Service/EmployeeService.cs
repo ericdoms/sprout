@@ -5,6 +5,7 @@ using SproutSolution.Repository.Interface;
 using SproutSolution.Service.Interface;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SproutSolution.Service.Service
 {
@@ -16,7 +17,7 @@ namespace SproutSolution.Service.Service
             _employeeRepository = employeeRepository;
         }
 
-        public void CreateEmployee(Employee employee)
+        public async void CreateEmployee(Employee employee)
         {
             try
             {
@@ -28,11 +29,11 @@ namespace SproutSolution.Service.Service
             }
         }
 
-        public Employee GetEmployeeById(Guid employeeId)
+        public async Task<Employee> GetEmployeeById(Guid employeeId)
         {
             try
             {
-                return _employeeRepository.GetEmployeeById(employeeId);
+                return await _employeeRepository.GetEmployeeById(employeeId);
             }
             catch (Exception ex)
             {
@@ -40,11 +41,11 @@ namespace SproutSolution.Service.Service
             }
         }
 
-        public IEnumerable<Employee> GetEmployees()
+        public async Task<IEnumerable<Employee>> GetEmployees()
         {
             try
             {
-                return _employeeRepository.GetEmployees();
+                return await _employeeRepository.GetEmployees();
             }
             catch (Exception ex)
             {
@@ -52,17 +53,17 @@ namespace SproutSolution.Service.Service
             }
         }
 
-        public decimal GetSalary(Employee employee)
+        public async Task<decimal> GetSalary(Employee employee)
         {
             EmployeeFactory EmployeeFactory = new ConcreteEmployeeFactory();
             switch(employee.EmployeeType)
             {
                 case EmployeeType.RegularEmployee:
                     IFactory regularEmployee = EmployeeFactory.Factory(employee);
-                    return regularEmployee.GetSalary();
+                    return await regularEmployee.GetSalary();
                 case EmployeeType.ContractualEmployee:
                     IFactory contractualEmployee = EmployeeFactory.Factory(employee);
-                    return contractualEmployee.GetSalary();
+                    return await contractualEmployee.GetSalary();
                 default:
                     return 0;
             }

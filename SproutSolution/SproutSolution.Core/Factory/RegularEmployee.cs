@@ -3,6 +3,7 @@ using SproutSolution.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SproutSolution.Core.Factory
 {
@@ -16,11 +17,11 @@ namespace SproutSolution.Core.Factory
         {
             _employee = employee;
         }
-        public decimal GetSalary()
+        public async Task<decimal> GetSalary()
         {
             decimal ratePerDay = (_basicMonthlySalary / 22);
             decimal computedTax = (_basicMonthlySalary * (_tax / 100));
-            return Math.Round(((_basicMonthlySalary - (ratePerDay * _employee.Days)) - computedTax),2);
+            return Math.Round(((_basicMonthlySalary - (ratePerDay * _employee.Days)) - computedTax), 2);
         }
     }
 }

@@ -3,6 +3,7 @@ using SproutSolution.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SproutSolution.Core.Factory
 {
@@ -14,7 +15,7 @@ namespace SproutSolution.Core.Factory
         {
             _employee = employee;
         }
-        public decimal GetSalary()
+        public async Task<decimal> GetSalary()
         {
             return Math.Round((_dailyRate * _employee.Days),2);
         }

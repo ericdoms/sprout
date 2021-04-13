@@ -25,30 +25,60 @@ namespace SproutSolution.API.Controllers
 
         // GET: api/<EmployeeController>
         [HttpGet]
-        public IEnumerable<Employee> Get()
+        public async Task<IEnumerable<Employee>> Get()
         {
-            return _employeeService.GetEmployees();
+            try
+            {
+                return await _employeeService.GetEmployees();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         // GET api/<EmployeeController>/5
         [HttpGet("{id}")]
-        public Employee GetEmployeeById(Guid id)
+        public async Task<Employee> GetEmployeeById(Guid id)
         {
-            return _employeeService.GetEmployeeById(id);
+            try
+            {
+                return await _employeeService.GetEmployeeById(id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         // GET api/<EmployeeController>/GetSalary
         [HttpPost("GetSalary")]
-        public Decimal GetSalary([FromBody] Employee employee)
+        public async Task<Decimal> GetSalary([FromBody] Employee employee)
         {
-            return _employeeService.GetSalary(employee);
+            try
+            {
+                return await _employeeService.GetSalary(employee);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         // POST api/<EmployeeController>
         [HttpPost]
         public void Post([FromBody] Employee employee)
         {
-            _employeeService.CreateEmployee(employee);
+            try
+            {
+                _employeeService.CreateEmployee(employee);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+           
         }
     }
 }

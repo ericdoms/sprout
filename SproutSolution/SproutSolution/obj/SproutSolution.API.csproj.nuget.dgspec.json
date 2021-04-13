@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj": {}
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
         "projectName": "SproutSolution.Core",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
+        "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj",
         "projectName": "SproutSolution.Repository",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj",
+        "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
               }
             }
           }
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj": {
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj",
         "projectName": "SproutSolution.Service",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj",
+        "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +150,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
               },
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj"
               }
             }
           }
@@ -190,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj": {
+    "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
         "projectName": "SproutSolution.API",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
+        "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\SproutSolution.API.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,14 +214,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj"
               },
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Repository\\SproutSolution.Repository.csproj"
               },
-              "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj": {
-                "projectPath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj"
+              "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj": {
+                "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\sprout\\SproutSolution\\SproutSolution.Service\\SproutSolution.Service.csproj"
               }
             }
           }
