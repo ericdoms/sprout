@@ -1,0 +1,14 @@
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Service.deps.json
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Service.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Service.pdb
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Core.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Core.pdb
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.csprojAssemblyReference.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.AssemblyInfoInputs.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.AssemblyInfo.cs
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.csproj.CoreCompileInputs.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.csproj.CopyComplete
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\obj\Debug\netstandard2.0\SproutSolution.Service.pdb
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Repository.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Service\bin\Debug\netstandard2.0\SproutSolution.Repository.pdb

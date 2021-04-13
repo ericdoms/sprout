@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SproutSolution.API", "SproutSolution\SproutSolution.API.csproj", "{01245DD4-43AB-42AC-9C42-C315D417C7DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprout.API", "Sprout.API", "{47C7B6B8-A82C-4CEA-9173-9E999B867C81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprout.Infrastracture", "Sprout.Infrastracture", "{56881569-8D9D-434E-AC90-3B70CD2CE5A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprout.Core", "Sprout.Core", "{7F5CF710-02F2-4DDB-B1B7-AE14B412844B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SproutSolution.Core", "SproutSolution.Core\SproutSolution.Core.csproj", "{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SproutSolution.Service", "SproutSolution.Service\SproutSolution.Service.csproj", "{6F8239C2-88A4-4A95-9D47-C5D9C9338054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SproutSolution.Repository", "SproutSolution.Repository\SproutSolution.Repository.csproj", "{0EC4710A-8939-478F-BF04-0EFB9BDB8697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01245DD4-43AB-42AC-9C42-C315D417C7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01245DD4-43AB-42AC-9C42-C315D417C7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01245DD4-43AB-42AC-9C42-C315D417C7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01245DD4-43AB-42AC-9C42-C315D417C7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8239C2-88A4-4A95-9D47-C5D9C9338054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8239C2-88A4-4A95-9D47-C5D9C9338054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8239C2-88A4-4A95-9D47-C5D9C9338054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8239C2-88A4-4A95-9D47-C5D9C9338054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC4710A-8939-478F-BF04-0EFB9BDB8697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC4710A-8939-478F-BF04-0EFB9BDB8697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC4710A-8939-478F-BF04-0EFB9BDB8697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC4710A-8939-478F-BF04-0EFB9BDB8697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01245DD4-43AB-42AC-9C42-C315D417C7DA} = {47C7B6B8-A82C-4CEA-9173-9E999B867C81}
+		{C7DB83C3-7606-44FD-8E0C-0F6C0F5DAA0F} = {7F5CF710-02F2-4DDB-B1B7-AE14B412844B}
+		{6F8239C2-88A4-4A95-9D47-C5D9C9338054} = {56881569-8D9D-434E-AC90-3B70CD2CE5A4}
+		{0EC4710A-8939-478F-BF04-0EFB9BDB8697} = {56881569-8D9D-434E-AC90-3B70CD2CE5A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D886DABA-D3DD-41AD-BCE0-422F90AE678D}
+	EndGlobalSection
+EndGlobal

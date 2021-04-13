@@ -1,0 +1,9 @@
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\bin\Debug\netstandard2.0\SproutSolution.Core.deps.json
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\bin\Debug\netstandard2.0\SproutSolution.Core.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\bin\Debug\netstandard2.0\SproutSolution.Core.pdb
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.csprojAssemblyReference.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.AssemblyInfoInputs.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.AssemblyInfo.cs
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.csproj.CoreCompileInputs.cache
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.dll
+C:\Users\Eric\source\repos\SproutSolution\SproutSolution.Core\obj\Debug\netstandard2.0\SproutSolution.Core.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g65oiDR6CkSScA6YoiWLGHFw8qRkW2R1E8ytJeD0yK1B16I+P1W4ALtV0VYgDZEGoDqg2Vm+VWdnceeb1vaeeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eric\\source\\repos\\SproutSolution\\SproutSolution.Core\\SproutSolution.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eric\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Eric\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
